@@ -1,0 +1,204 @@
+.portfolio-page{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:40px 20px;
+
+}
+
+
+
+.portfolio-header{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+
+
+.portfolio-header h1{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+    color:#2563eb;
+
+}
+
+
+
+.portfolio-header p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#555;
+
+    line-height:1.7;
+
+}
+/* Portfolio Form */
+
+.portfolio-form{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+    margin-bottom:40px;
+    flex-wrap:wrap;
+
+}
+
+
+/* Input */
+
+.portfolio-form input{
+
+    width:700px;
+    max-width:100%;
+
+    padding:16px 22px;
+    gap:10px;
+    font-size:17px;
+
+    border:2px solid #dbeafe;
+    border-radius:12px;
+
+    outline:none;
+
+    transition:0.3s;
+
+}
+
+
+.portfolio-form input:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 12px rgba(37,99,235,.2);
+
+}
+
+
+/* Button */
+
+.portfolio-form button{
+
+    padding:14px 28px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+.portfolio-form button:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+
+}
+
+
+.portfolio-form button:disabled{
+
+    opacity:0.7;
+
+    cursor:not-allowed;
+
+}
+.preview-result{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+    margin-top:40px;
+
+}
+
+.score-card{
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.score-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.score-circle{
+
+    width:120px;
+
+    height:120px;
+
+    margin:20px auto 0;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    color:#2563eb;
+
+    border:8px solid #2563eb;
+
+}
+
+.overall-preview{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}

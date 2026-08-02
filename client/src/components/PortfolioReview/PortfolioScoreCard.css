@@ -1,0 +1,41 @@
+.portfolio-score-card{
+
+    background:#fff;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+
+.portfolio-score-circle{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    border:10px solid #dbeafe;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin:20px auto;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+    color:#2563eb;
+
+}

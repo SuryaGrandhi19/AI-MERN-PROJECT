@@ -1,0 +1,342 @@
+/* ===========================
+   PUBLIC REVIEW PAGES
+=========================== */
+
+.resume-page,
+.portfolio-page{
+
+    min-height:100vh;
+    background:linear-gradient(135deg,#eef4ff,#ffffff);
+    padding:70px 20px;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.resume-header,
+.portfolio-header{
+
+    max-width:850px;
+    margin:0 auto 45px;
+    text-align:center;
+
+}
+
+.resume-header h1,
+.portfolio-header h1{
+
+    font-size:46px;
+    color:#1e293b;
+    font-weight:700;
+    margin-bottom:15px;
+
+}
+
+.resume-header p,
+.portfolio-header p{
+
+    color:#64748b;
+    font-size:18px;
+    line-height:1.8;
+
+}
+
+/* ===========================
+   INPUT CARD
+=========================== */
+
+.upload-card{
+
+    max-width:760px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 12px 40px rgba(0,0,0,.08);
+
+}
+
+.upload-card form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.upload-card input[type=file],
+.upload-card input[type=url]{
+
+    width:100%;
+
+    padding:18px;
+
+    border:2px dashed #2563eb;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    background:#f8fbff;
+
+}
+
+.upload-card input[type=url]{
+
+    border:2px solid #dbeafe;
+
+}
+
+.upload-card button{
+
+    width:220px;
+
+    margin:auto;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.upload-card button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 25px rgba(37,99,235,.3);
+
+}
+
+/* ===========================
+   SCORE CARDS
+=========================== */
+
+.preview-result{
+
+    max-width:1200px;
+
+    margin:60px auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+
+.score-card{
+
+    width:240px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.score-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.score-card h2{
+
+    color:#334155;
+
+    margin-bottom:20px;
+
+    font-size:22px;
+
+}
+
+.score-circle{
+
+    width:130px;
+
+    height:130px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   LOCKED REPORT
+=========================== */
+
+.locked-card{
+
+    max-width:900px;
+
+    margin:50px auto;
+
+    background:white;
+
+    padding:45px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+}
+
+.locked-card h2{
+
+    font-size:34px;
+
+    color:#1e293b;
+
+    margin-bottom:15px;
+
+}
+
+.locked-card p{
+
+    color:#64748b;
+
+    margin-bottom:25px;
+
+}
+
+.locked-card ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin-bottom:25px;
+
+}
+
+.locked-card li{
+
+    padding:10px;
+
+    color:#334155;
+
+    font-size:17px;
+
+}
+
+.locked-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+.locked-buttons a{
+
+    padding:14px 35px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+
+    transition:.3s;
+
+}
+
+.locked-buttons a:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.resume-header h1,
+.portfolio-header h1{
+
+font-size:34px;
+
+}
+
+.resume-header p,
+.portfolio-header p{
+
+font-size:16px;
+
+}
+
+.upload-card{
+
+padding:25px;
+
+}
+
+.score-card{
+
+width:100%;
+
+}
+
+.locked-buttons{
+
+flex-direction:column;
+
+}
+
+}

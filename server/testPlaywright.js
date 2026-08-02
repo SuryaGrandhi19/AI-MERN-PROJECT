@@ -1,0 +1,18 @@
+const { chromium } = require("playwright");
+
+async function test(){
+
+    const browser = await chromium.launch({
+        headless:true
+    });
+
+    const page = await browser.newPage();
+
+    await page.goto("https://google.com");
+
+    console.log(await page.title());
+
+    await browser.close();
+}
+
+test();

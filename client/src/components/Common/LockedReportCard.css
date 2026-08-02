@@ -1,0 +1,87 @@
+.locked-card{
+
+    width:900px;
+
+    max-width:100%;
+
+    margin:50px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+}
+
+.locked-card h2{
+
+    color:#1e293b;
+
+    margin-bottom:15px;
+
+}
+
+.locked-card p{
+
+    color:#64748b;
+
+    margin-bottom:30px;
+
+}
+
+.locked-card ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin-bottom:30px;
+
+}
+
+.locked-card li{
+
+    margin:12px 0;
+
+    color:#334155;
+
+    font-size:17px;
+
+}
+
+.locked-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+.locked-buttons a{
+
+    text-decoration:none;
+
+    padding:14px 30px;
+
+    border-radius:8px;
+
+    color:white;
+
+    background:#2563eb;
+
+    transition:.3s;
+
+}
+
+.locked-buttons a:hover{
+
+    background:#1d4ed8;
+
+}
