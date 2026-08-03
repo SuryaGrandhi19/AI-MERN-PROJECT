@@ -17,7 +17,7 @@ const scrapeWebsite = async (url) => {
 
         await page.goto(url, {
             waitUntil: "networkidle",
-            timeout: 90000
+            timeout: 60000
         });
 
         await page.waitForTimeout(3000);

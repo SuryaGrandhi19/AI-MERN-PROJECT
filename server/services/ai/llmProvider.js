@@ -38,7 +38,7 @@ const askAI = async (prompt) => {
                     "Content-Type":"application/json"
                 },
 
-                timeout:90000
+                timeout:60000
             }
 
         );

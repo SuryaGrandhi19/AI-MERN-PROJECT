@@ -27,7 +27,7 @@ app.use(
 
       const allowedOrigins = [
         "http://localhost:5173",
-        " https://ai-mern-project-theta.vercel.app/",
+        "https://ai-mern-project-theta.vercel.app/",
       ];
 
       if (
