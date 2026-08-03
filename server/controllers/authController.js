@@ -172,12 +172,10 @@ exports.loginUser = async(req,res)=>{
 
 exports.logoutUser = (req, res) => {
 
-    res.cookie("token", token, {
+    res.clearCookie("token", {
     httpOnly: true,
-    secure: true,
-    sameSite: "none",
-    maxAge: 7 * 24 * 60 * 60 * 1000,
-    path: "/"
+    secure: process.env.NODE_ENV === "production",
+    sameSite: process.env.NODE_ENV === "production" ? "none" : "lax"
 });
 
     res.status(200).json({
